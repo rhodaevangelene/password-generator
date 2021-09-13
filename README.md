@@ -29,3 +29,20 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Live Link
 [Click here](https://rhodaevangelene.github.io/password-generator/) to access a live demo
+
+## Screenshots
+### Password Length Prompt:
+![Mockup Image](/screenshots/1.png)
+### Uppercase Prompt:
+![Mockup Image](/screenshots/2.png)
+### Lowercase Prompt:
+![Mockup Image](/screenshots/3.png)
+### Numeric Character Prompt:
+![Mockup Image](/screenshots/4.png)
+### Special Character Prompt:
+![Mockup Image](/screenshots/5.png)
+### Error message when no characters options are selected.
+![Mockup Image](/screenshots/6.png)
+### Password Generated Successfully:
+![Mockup Image](/screenshots/7.png)
+
