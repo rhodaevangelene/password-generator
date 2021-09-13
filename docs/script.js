@@ -25,7 +25,7 @@ function writePassword() {
 
 //Generate password based on the given password length and character options.
 function generatePassword(passLen, isUpperCase, isLowerCase, isNumbers, isSpecialChar) {
-  
+
   var password = "";
   var charset = "";
   if (isUpperCase === true) {
@@ -36,11 +36,11 @@ function generatePassword(passLen, isUpperCase, isLowerCase, isNumbers, isSpecia
     charset += "abcdefghijklmnopqrstuvwxyz";
   }
 
-  if(isNumbers === true) {
+  if (isNumbers === true) {
     charset += "0123456789";
   }
 
-  if(isSpecialChar === true) {
+  if (isSpecialChar === true) {
     charset += "!@#$%^&*()_+";
   }
 
